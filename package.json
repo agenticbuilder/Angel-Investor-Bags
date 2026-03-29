@@ -1,0 +1,42 @@
+{
+  "name": "angelic-buyback-engine",
+  "version": "0.1.0",
+  "description": "A transparent, config-driven buyback bot for protocol fee recycling.",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "check:balance": "ts-node scripts/check-balance.ts",
+    "sim:buyback": "DRY_RUN=true ts-node scripts/simulate-buyback.ts",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "buyback",
+    "defi",
+    "bot",
+    "typescript",
+    "treasury",
+    "fee-recycler"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourhandle/angelic-buyback-engine"
+  }
+}
