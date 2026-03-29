@@ -3,7 +3,7 @@
 # ANGELIC INVESTOR
 
 <p align="center">
-  <img src="./AI bg b.png" alt="Angel Investor" width="600"/>
+  <img src="./AI bg b.png" alt="Angel Investor" width="900"/>
 </p>
 
 ### angelic-buyback-engine
