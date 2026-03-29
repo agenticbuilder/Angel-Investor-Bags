@@ -2,6 +2,10 @@
 
 # ANGELIC INVESTOR
 
+<p align="center">
+  <img src="./ai bg b.png" alt="Angel Investor" width="220"/>
+</p>
+
 ### angelic-buyback-engine
 
 *A transparent, config-driven buyback bot for protocol fee recycling.*
